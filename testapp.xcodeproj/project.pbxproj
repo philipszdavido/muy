@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F3B725C2B0E287B00368C65 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B725B2B0E287B00368C65 /* Example.swift */; };
+		4F3B725F2B0E303500368C65 /* UserChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B725E2B0E303500368C65 /* UserChatView.swift */; };
+		4F3B72612B0E390300368C65 /* time.utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B72602B0E390300368C65 /* time.utils.swift */; };
+		4F3B72642B0E3B0B00368C65 /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B72632B0E3B0B00368C65 /* RemoteImageView.swift */; };
+		4F3B72662B0E3D2300368C65 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B72652B0E3D2300368C65 /* NetworkMonitor.swift */; };
+		4F3B72682B0E3E3800368C65 /* chat.mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B72672B0E3E3800368C65 /* chat.mocks.swift */; };
+		4F3B726A2B0E3E6900368C65 /* chat.types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B72692B0E3E6900368C65 /* chat.types.swift */; };
+		4F51AD2D2B0CE67B0089EBD6 /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F51AD2C2B0CE67B0089EBD6 /* ChatsView.swift */; };
+		4F51AD2F2B0CE7E60089EBD6 /* CircleAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F51AD2E2B0CE7E60089EBD6 /* CircleAvatar.swift */; };
+		4F51AD362B0CEC1A0089EBD6 /* ContactsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F51AD352B0CEC1A0089EBD6 /* ContactsListView.swift */; };
+		4F51AD3C2B0CF9970089EBD6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F51AD3B2B0CF9970089EBD6 /* ProfileView.swift */; };
+		4F51AD3E2B0CF9D30089EBD6 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F51AD3D2B0CF9D30089EBD6 /* FeedView.swift */; };
+		4F51AD402B0CF9F10089EBD6 /* UpdatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F51AD3F2B0CF9F10089EBD6 /* UpdatesView.swift */; };
+		4F610DB72B0E5AC4007E91B6 /* Swipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F610DB62B0E5AC4007E91B6 /* Swipe.swift */; };
 		4F7A9B4E2B0CB40700900F41 /* testappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7A9B4D2B0CB40700900F41 /* testappApp.swift */; };
 		4F7A9B502B0CB40700900F41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7A9B4F2B0CB40700900F41 /* ContentView.swift */; };
 		4F7A9B522B0CB40A00900F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7A9B512B0CB40A00900F41 /* Assets.xcassets */; };
@@ -14,6 +28,8 @@
 		4F7A9B5F2B0CB40A00900F41 /* testappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7A9B5E2B0CB40A00900F41 /* testappTests.swift */; };
 		4F7A9B692B0CB40A00900F41 /* testappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7A9B682B0CB40A00900F41 /* testappUITests.swift */; };
 		4F7A9B6B2B0CB40A00900F41 /* testappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7A9B6A2B0CB40A00900F41 /* testappUITestsLaunchTests.swift */; };
+		4FEB8C8A2B0FCE97007E3588 /* TextUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEB8C892B0FCE97007E3588 /* TextUpdateView.swift */; };
+		4FEB8C8C2B0FF5A4007E3588 /* VideoUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEB8C8B2B0FF5A4007E3588 /* VideoUpdateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F3B725B2B0E287B00368C65 /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		4F3B725E2B0E303500368C65 /* UserChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChatView.swift; sourceTree = "<group>"; };
+		4F3B72602B0E390300368C65 /* time.utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = time.utils.swift; sourceTree = "<group>"; };
+		4F3B72632B0E3B0B00368C65 /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
+		4F3B72652B0E3D2300368C65 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		4F3B72672B0E3E3800368C65 /* chat.mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chat.mocks.swift; sourceTree = "<group>"; };
+		4F3B72692B0E3E6900368C65 /* chat.types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chat.types.swift; sourceTree = "<group>"; };
+		4F51AD2C2B0CE67B0089EBD6 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
+		4F51AD2E2B0CE7E60089EBD6 /* CircleAvatar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAvatar.swift; sourceTree = "<group>"; };
+		4F51AD352B0CEC1A0089EBD6 /* ContactsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListView.swift; sourceTree = "<group>"; };
+		4F51AD3B2B0CF9970089EBD6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4F51AD3D2B0CF9D30089EBD6 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		4F51AD3F2B0CF9F10089EBD6 /* UpdatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesView.swift; sourceTree = "<group>"; };
+		4F610DB62B0E5AC4007E91B6 /* Swipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swipe.swift; sourceTree = "<group>"; };
 		4F7A9B4A2B0CB40700900F41 /* testapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7A9B4D2B0CB40700900F41 /* testappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testappApp.swift; sourceTree = "<group>"; };
 		4F7A9B4F2B0CB40700900F41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +74,9 @@
 		4F7A9B642B0CB40A00900F41 /* testappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7A9B682B0CB40A00900F41 /* testappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testappUITests.swift; sourceTree = "<group>"; };
 		4F7A9B6A2B0CB40A00900F41 /* testappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4FEB8C892B0FCE97007E3588 /* TextUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextUpdateView.swift; sourceTree = "<group>"; };
+		4FEB8C8B2B0FF5A4007E3588 /* VideoUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoUpdateView.swift; sourceTree = "<group>"; };
+		4FEB8C8D2B0FF77A007E3588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +104,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F3B725D2B0E301600368C65 /* chats */ = {
+			isa = PBXGroup;
+			children = (
+				4F3B725E2B0E303500368C65 /* UserChatView.swift */,
+				4F3B72602B0E390300368C65 /* time.utils.swift */,
+				4F3B72672B0E3E3800368C65 /* chat.mocks.swift */,
+				4F3B72692B0E3E6900368C65 /* chat.types.swift */,
+			);
+			path = chats;
+			sourceTree = "<group>";
+		};
+		4F3B72622B0E3AF200368C65 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4F3B72632B0E3B0B00368C65 /* RemoteImageView.swift */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		4F51AD332B0CEB9E0089EBD6 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				4F51AD2E2B0CE7E60089EBD6 /* CircleAvatar.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		4F51AD342B0CEBAB0089EBD6 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				4FD782342B109831008C274C /* camera */,
+				4FEB8C882B0FCE83007E3588 /* updates */,
+				4F3B72622B0E3AF200368C65 /* images */,
+				4F3B725D2B0E301600368C65 /* chats */,
+				4F51AD2C2B0CE67B0089EBD6 /* ChatsView.swift */,
+				4F51AD352B0CEC1A0089EBD6 /* ContactsListView.swift */,
+				4F51AD3B2B0CF9970089EBD6 /* ProfileView.swift */,
+				4F51AD3D2B0CF9D30089EBD6 /* FeedView.swift */,
+				4F51AD3F2B0CF9F10089EBD6 /* UpdatesView.swift */,
+				4F3B725B2B0E287B00368C65 /* Example.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		4F610DB52B0E5AAE007E91B6 /* Exampls */ = {
+			isa = PBXGroup;
+			children = (
+				4F610DB62B0E5AC4007E91B6 /* Swipe.swift */,
+			);
+			path = Exampls;
+			sourceTree = "<group>";
+		};
 		4F7A9B412B0CB40700900F41 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +179,15 @@
 		4F7A9B4C2B0CB40700900F41 /* testapp */ = {
 			isa = PBXGroup;
 			children = (
-				4F7A9B4D2B0CB40700900F41 /* testappApp.swift */,
+				4FEB8C8D2B0FF77A007E3588 /* Info.plist */,
+				4F610DB52B0E5AAE007E91B6 /* Exampls */,
 				4F7A9B4F2B0CB40700900F41 /* ContentView.swift */,
+				4F7A9B4D2B0CB40700900F41 /* testappApp.swift */,
 				4F7A9B512B0CB40A00900F41 /* Assets.xcassets */,
 				4F7A9B532B0CB40A00900F41 /* Preview Content */,
+				4F51AD342B0CEBAB0089EBD6 /* views */,
+				4F51AD332B0CEB9E0089EBD6 /* components */,
+				4F3B72652B0E3D2300368C65 /* NetworkMonitor.swift */,
 			);
 			path = testapp;
 			sourceTree = "<group>";
@@ -125,6 +215,22 @@
 				4F7A9B6A2B0CB40A00900F41 /* testappUITestsLaunchTests.swift */,
 			);
 			path = testappUITests;
+			sourceTree = "<group>";
+		};
+		4FD782342B109831008C274C /* camera */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = camera;
+			sourceTree = "<group>";
+		};
+		4FEB8C882B0FCE83007E3588 /* updates */ = {
+			isa = PBXGroup;
+			children = (
+				4FEB8C892B0FCE97007E3588 /* TextUpdateView.swift */,
+				4FEB8C8B2B0FF5A4007E3588 /* VideoUpdateView.swift */,
+			);
+			path = updates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +363,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F51AD3E2B0CF9D30089EBD6 /* FeedView.swift in Sources */,
+				4F51AD2D2B0CE67B0089EBD6 /* ChatsView.swift in Sources */,
 				4F7A9B502B0CB40700900F41 /* ContentView.swift in Sources */,
+				4F3B725F2B0E303500368C65 /* UserChatView.swift in Sources */,
+				4F51AD2F2B0CE7E60089EBD6 /* CircleAvatar.swift in Sources */,
+				4F51AD362B0CEC1A0089EBD6 /* ContactsListView.swift in Sources */,
+				4F51AD402B0CF9F10089EBD6 /* UpdatesView.swift in Sources */,
+				4FEB8C8C2B0FF5A4007E3588 /* VideoUpdateView.swift in Sources */,
+				4F51AD3C2B0CF9970089EBD6 /* ProfileView.swift in Sources */,
 				4F7A9B4E2B0CB40700900F41 /* testappApp.swift in Sources */,
+				4F3B72662B0E3D2300368C65 /* NetworkMonitor.swift in Sources */,
+				4F3B726A2B0E3E6900368C65 /* chat.types.swift in Sources */,
+				4F3B72682B0E3E3800368C65 /* chat.mocks.swift in Sources */,
+				4F3B72612B0E390300368C65 /* time.utils.swift in Sources */,
+				4FEB8C8A2B0FCE97007E3588 /* TextUpdateView.swift in Sources */,
+				4F3B72642B0E3B0B00368C65 /* RemoteImageView.swift in Sources */,
+				4F610DB72B0E5AC4007E91B6 /* Swipe.swift in Sources */,
+				4F3B725C2B0E287B00368C65 /* Example.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -422,8 +544,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"testapp/Preview Content\"";
+				DEVELOPMENT_TEAM = AVHBF8657S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = testapp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to capture photos for a personalized experience.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -434,7 +559,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.testapp;
+				PRODUCT_BUNDLE_IDENTIFIER = test.testapp.chidume;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -450,8 +575,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"testapp/Preview Content\"";
+				DEVELOPMENT_TEAM = AVHBF8657S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = testapp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to capture photos for a personalized experience.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -462,7 +590,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = test.testapp;
+				PRODUCT_BUNDLE_IDENTIFIER = test.testapp.chidume;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

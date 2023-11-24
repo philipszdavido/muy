@@ -8,15 +8,52 @@
 import SwiftUI
 
 struct ContentView: View {
+
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
+                
+                ChatsView()
+                    .tabItem {
+                    Image(systemName: "message")
+                        .imageScale(.large)
+                        .foregroundStyle(.tint)
+                    Text("Chats")
+                    }.tag(1)
+                
+                UpdatesView().tabItem {
+                    Image(systemName: "person.line.dotted.person")
+                        .imageScale(.large)
+                        .foregroundStyle(.tint)
+                    Text("Updates")
+                    
+                }.tag(2)
+                
+                FeedView().tabItem {
+                    Image(systemName: "newspaper")
+                        .imageScale(.large)
+                        .foregroundStyle(.tint)
+                    Text("Feed")
+                    
+                }.tag(3)
+                
+                ContactsListView().tabItem {
+                    Image(systemName: "phone")
+                        .imageScale(.large)
+                        .foregroundStyle(.tint)
+                    Text("Contacts")
+                    
+                }.tag(4)
+                
+                ProfileView().tabItem {
+                    Image(systemName: "person.circle.fill")
+                        .imageScale(.large)
+                        .foregroundStyle(.tint)
+                    Text("You")
+                    
+                }.tag(5)
+            }
         }
-        .padding()
-    }
 }
 
 #Preview {
