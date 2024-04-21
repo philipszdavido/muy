@@ -78,7 +78,7 @@ class Status: Identifiable, Codable {
     }
 }
 
-struct UserStatus {
+struct UserStatus: Identifiable, Codable {
     let id: String
     let name: String
     let imageURL: String

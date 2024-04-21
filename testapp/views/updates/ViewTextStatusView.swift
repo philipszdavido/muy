@@ -11,7 +11,7 @@ struct ViewTextStatusView: View {
     var status: UserStatus
     
     @State private var currentIndex = 0
-    @State private var curentStatusToView: any Status?
+    @State private var curentStatusToView: Status?
     @State private var timer: Timer? = nil
     @EnvironmentObject var userData: UpdatesViewData
 
