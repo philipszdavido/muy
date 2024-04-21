@@ -11,7 +11,7 @@ struct ContentView: View {
 
 
     var body: some View {
-            TabView(selection: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Selection@*/.constant(1)/*@END_MENU_TOKEN@*/) {
+            TabView {
                 
                 ChatsView()
                     .tabItem {
@@ -21,7 +21,7 @@ struct ContentView: View {
                     Text("Chats")
                     }.tag(1)
                 
-                UpdatesView().tabItem {
+                NavigationStack { UpdatesView()}.tabItem {
                     Image(systemName: "person.line.dotted.person")
                         .imageScale(.large)
                         .foregroundStyle(.tint)

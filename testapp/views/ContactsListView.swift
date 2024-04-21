@@ -1,47 +1,47 @@
 import SwiftUI
 import Contacts
 
-//func requestContactsAccess(completion: @escaping (Bool) -> Void) {
-//    let store = CNContactStore()
-//
-//    // Request access to contacts
-//    store.requestAccess(for: .contacts) { (granted, error) in
-//        DispatchQueue.main.async {
-//            completion(granted)
-//        }
-//    }
-//}
-//
-//func fetchContacts(completion: @escaping ([CNContact]?) -> Void) {
-//    requestContactsAccess { (granted) in
-//        if granted {
-//            let keysToFetch = [CNContactGivenNameKey, CNContactFamilyNameKey, CNContactPhoneNumbersKey]
-//            let request = CNContactFetchRequest(keysToFetch: keysToFetch as [CNKeyDescriptor])
-//
-//            var contacts = [CNContact]()
-//
-//            do {
-//                try CNContactStore().enumerateContacts(with: request) { (contact, _) in
-//                    contacts.append(contact)
-//                }
-//
-//                DispatchQueue.main.async {
-//                    completion(contacts)
-//                }
-//            } catch {
-//                print("Error fetching contacts: \(error)")
-//                DispatchQueue.main.async {
-//                    completion(nil)
-//                }
-//            }
-//        } else {
-//            print("Contacts access not granted.")
-//            DispatchQueue.main.async {
-//                completion(nil)
-//            }
-//        }
-//    }
-//}
+func requestContactsAccess(completion: @escaping (Bool) -> Void) {
+    let store = CNContactStore()
+
+    // Request access to contacts
+    store.requestAccess(for: .contacts) { (granted, error) in
+        DispatchQueue.main.async {
+            completion(granted)
+        }
+    }
+}
+
+func fetchContacts(completion: @escaping ([CNContact]?) -> Void) {
+    requestContactsAccess { (granted) in
+        if granted {
+            let keysToFetch = [CNContactGivenNameKey, CNContactFamilyNameKey, CNContactPhoneNumbersKey]
+            let request = CNContactFetchRequest(keysToFetch: keysToFetch as [CNKeyDescriptor])
+
+            var contacts = [CNContact]()
+
+            do {
+                try CNContactStore().enumerateContacts(with: request) { (contact, _) in
+                    contacts.append(contact)
+                }
+
+                DispatchQueue.main.async {
+                    completion(contacts)
+                }
+            } catch {
+                print("Error fetching contacts: \(error)")
+                DispatchQueue.main.async {
+                    completion(nil)
+                }
+            }
+        } else {
+            print("Contacts access not granted.")
+            DispatchQueue.main.async {
+                completion(nil)
+            }
+        }
+    }
+}
 
 struct ContactsListView: View {
     @State private var contacts: [CNContact]?
@@ -62,7 +62,7 @@ struct ContactsListView: View {
                             }
                         }
                     }
-                }
+                }.listStyle(PlainListStyle())
             } else {
                 Text("Loading contacts...")
                     .foregroundColor(.gray)
@@ -70,14 +70,17 @@ struct ContactsListView: View {
         }
         .navigationTitle("Contacts")
         }
-        .onAppear {
-            fetchContacts { fetchedContacts in
-                contacts = fetchedContacts
+        .task {
+            DispatchQueue.global().async {
+                    // Your existing code for making the Firestore request
+                fetchContacts { fetchedContacts in
+                    contacts = fetchedContacts
+                }
             }
         }
     }
 
-    func fetchContacts(completion: @escaping ([CNContact]) -> Void) {
+    func _fetchContacts(completion: @escaping ([CNContact]) -> Void) {
         // Mock implementation with sample contacts
         let mockContacts: [CNContact] = [
             createMockContact(givenName: "John", familyName: "Doe", phoneNumber: "123-456-7890"),

@@ -1,4 +1,5 @@
 import SwiftUI
+import Foundation
 
 struct TextUpdateView: View {
     @Binding var textUpdate: Bool
@@ -7,7 +8,7 @@ struct TextUpdateView: View {
 
     
     var body: some View {
-            VStack { // Set alignment to .leading
+            VStack {
                 TextUpdateToolbarView(textUpdate: $textUpdate, color: $color)
                 
                 VStack {
@@ -64,8 +65,8 @@ struct TextUpdateToolbarView: View {
 }
 
 struct BottomSendTextUpdateView: View {
-    @State private var newMessage: String = ""
-
+    @State private var newMessage: String = "hello"
+    
     var body: some View {
         VStack {
             HStack {
@@ -75,13 +76,18 @@ struct BottomSendTextUpdateView: View {
                         // Handle send button action
                         // You can send the message or perform any other action
                         print("Send button tapped with message: \(newMessage)")
-                        newMessage = "" // Clear the text field after sending
+                        //                        newMessage = "" // Clear the text field after sending
+                        let firestoreDataManager = FirestoreDataManager()
+                        firestoreDataManager.addDocument(collection: "postStatus", data: generateAMockUpdate()) { result in print(result)
+                        }
+                        
                     }) {
                         Image(systemName: "paperplane")
                             .padding(8)
                             .background(Color.blue)
                             .foregroundColor(.white)
                             .cornerRadius(8)
+                        
                     }
                 }
                 .padding().frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
@@ -92,9 +98,6 @@ struct BottomSendTextUpdateView: View {
     }
 }
 
-//struct TextUpdateView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        TextUpdateView(textUpdate: "")
-//    }
-//}
-
+#Preview {
+    TextUpdateView(textUpdate: .constant(true))  // Use .constant(true) to initialize the binding
+}

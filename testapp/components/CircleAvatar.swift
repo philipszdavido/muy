@@ -6,7 +6,7 @@ struct CircleAvatar: View {
     var borderThickness: CGFloat
     var borderColor: Color
 
-    init(imageName: String, size: CGFloat = 100, borderThickness: CGFloat = 2, borderColor: Color = .white) {
+    init(imageName: String, size: CGFloat = 100, borderThickness: CGFloat = 1, borderColor: Color = .white) {
         self.imageName = imageName
         self.size = size
         self.borderThickness = borderThickness
@@ -14,7 +14,7 @@ struct CircleAvatar: View {
     }
 
     var body: some View {
-        Image(systemName: "newspaper")
+        Image(systemName: "person.crop.circle")
             .resizable()
             .scaledToFit()
             .frame(width: size, height: size)

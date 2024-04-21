@@ -18,13 +18,10 @@ struct ChatsView: View {
                 .navigationTitle("Chats")
                 .toolbar {
                     ToolbarItem(placement: .navigationBarLeading) {
-                            Button(action: {
-                                                // Handle action for the leading button
-                                            }) {
+                            Button(action: {}) {
                                                 Text( "Edit")
                                             }
                                 }
-                
                     
                 }
 //                .navigationTitle("Chats")
@@ -51,36 +48,36 @@ struct ChatList: View {
             
             ForEach(chats, id: \.id) { chat in
                 ZStack {
-                NavigationLink(
-                    destination: UserChatView(user: chat)                               ) {
+                    NavigationLink(destination: UserChatView(user: chat)) {
                         EmptyView()
                     }
                     .opacity(0.0)
                     .buttonStyle(PlainButtonStyle())
-                HStack(alignment:VerticalAlignment.top, spacing: 10) {
-                    CircleAvatar(imageName: "message", size: 55)
-                    
-                    VStack(
+                    HStack(alignment:VerticalAlignment.top, spacing: 10) {
+                        CircleAvatar(imageName: "message", size: 55)
                         
-                        alignment: HorizontalAlignment.leading) {
-                            HStack {
-                                Text("\(chat.name)")
-                                    .bold()
-                                
-                                Spacer()
-                                
-                                TimeAgoView(time: chat.timestamp)
-                                    .foregroundColor(.blue)
-                            }                                .padding(.bottom, 1)
+                        VStack(
                             
-                            
-                            Text("\(chat.message)")
-                        }.padding(.leading, 5)
-                    
-                }.padding(4)
-                    .listRowInsets(EdgeInsets())            }
+                            alignment: HorizontalAlignment.leading) {
+                                HStack {
+                                    Text("\(chat.name)")
+                                        .bold()
+                                    
+                                    Spacer()
+                                    
+                                    TimeAgoView(time: chat.timestamp)
+                                        .foregroundColor(.blue)
+                                }                                .padding(.bottom, 1)
+                                
+                                
+                                Text("\(chat.message)")
+                            }.padding(.leading, 5)
                         
+                    }.padding(4)
+                        .listRowInsets(EdgeInsets())
                 }
+                        
+            }
             
         }.listStyle(PlainListStyle())
             .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)

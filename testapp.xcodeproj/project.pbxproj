@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F3B725C2B0E287B00368C65 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B725B2B0E287B00368C65 /* Example.swift */; };
 		4F3B725F2B0E303500368C65 /* UserChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B725E2B0E303500368C65 /* UserChatView.swift */; };
 		4F3B72612B0E390300368C65 /* time.utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B72602B0E390300368C65 /* time.utils.swift */; };
 		4F3B72642B0E3B0B00368C65 /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B72632B0E3B0B00368C65 /* RemoteImageView.swift */; };
@@ -28,6 +27,37 @@
 		4F7A9B5F2B0CB40A00900F41 /* testappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7A9B5E2B0CB40A00900F41 /* testappTests.swift */; };
 		4F7A9B692B0CB40A00900F41 /* testappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7A9B682B0CB40A00900F41 /* testappUITests.swift */; };
 		4F7A9B6B2B0CB40A00900F41 /* testappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7A9B6A2B0CB40A00900F41 /* testappUITestsLaunchTests.swift */; };
+		4F8D5ADC2B14D831001C8056 /* mock_updates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D5ADB2B14D831001C8056 /* mock_updates.swift */; };
+		4F8D5ADE2B14D87B001C8056 /* updates_model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D5ADD2B14D87B001C8056 /* updates_model.swift */; };
+		4F8D5AE02B14DE26001C8056 /* UpdateListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D5ADF2B14DE26001C8056 /* UpdateListView.swift */; };
+		4F8D5AE22B14FC78001C8056 /* ViewTextStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D5AE12B14FC78001C8056 /* ViewTextStatusView.swift */; };
+		4F8D5AE42B1502B4001C8056 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D5AE32B1502B4001C8056 /* VideoPlayerView.swift */; };
+		4F8D5AE62B15153A001C8056 /* LinearViewUpdateProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D5AE52B15153A001C8056 /* LinearViewUpdateProgressView.swift */; };
+		4F9CD09E2B225A4800C31455 /* PollingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9CD09D2B225A4800C31455 /* PollingManager.swift */; };
+		4F9CD0A12B225BE500C31455 /* StatusUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9CD0A02B225BE500C31455 /* StatusUpdate.swift */; };
+		4FAAD28E2B31C98F00BE93E3 /* timeutils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAAD28D2B31C98F00BE93E3 /* timeutils.swift */; };
+		4FAAD2902B31DC3100BE93E3 /* BrokenCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAAD28F2B31DC3100BE93E3 /* BrokenCircle.swift */; };
+		4FAAD2922B32158800BE93E3 /* MyStatusListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAAD2912B32158800BE93E3 /* MyStatusListView.swift */; };
+		4FB3122C2B14ADEF00E5F078 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB3122B2B14ADEF00E5F078 /* SearchBar.swift */; };
+		4FD782432B10B64D008C274C /* ViewfinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD782352B10B64B008C274C /* ViewfinderView.swift */; };
+		4FD782442B10B64D008C274C /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD782362B10B64B008C274C /* Camera.swift */; };
+		4FD782452B10B64D008C274C /* PhotoAssetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD782372B10B64B008C274C /* PhotoAssetCollection.swift */; };
+		4FD782462B10B64D008C274C /* PhotoCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD782382B10B64B008C274C /* PhotoCollectionView.swift */; };
+		4FD782472B10B64D008C274C /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD782392B10B64C008C274C /* DataModel.swift */; };
+		4FD782482B10B64D008C274C /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7823A2B10B64C008C274C /* PhotoLibrary.swift */; };
+		4FD782492B10B64D008C274C /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7823B2B10B64C008C274C /* CameraView.swift */; };
+		4FD7824A2B10B64D008C274C /* CachedImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7823C2B10B64C008C274C /* CachedImageManager.swift */; };
+		4FD7824B2B10B64D008C274C /* PhotoAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7823D2B10B64C008C274C /* PhotoAsset.swift */; };
+		4FD7824C2B10B64D008C274C /* CameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7823E2B10B64D008C274C /* CameraApp.swift */; };
+		4FD7824D2B10B64D008C274C /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7823F2B10B64D008C274C /* PhotoCollection.swift */; };
+		4FD7824E2B10B64D008C274C /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD782402B10B64D008C274C /* PhotoView.swift */; };
+		4FD7824F2B10B64D008C274C /* ThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD782412B10B64D008C274C /* ThumbnailView.swift */; };
+		4FD782502B10B64D008C274C /* PhotoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD782422B10B64D008C274C /* PhotoItemView.swift */; };
+		4FD782532B11F434008C274C /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD782522B11F434008C274C /* Welcome.swift */; };
+		4FD782552B11F64C008C274C /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD782542B11F64C008C274C /* PhoneNumber.swift */; };
+		4FD782572B121E71008C274C /* CountriesCodesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD782562B121E71008C274C /* CountriesCodesView.swift */; };
+		4FD782592B1375FE008C274C /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FD782582B1375FE008C274C /* countries.json */; };
+		4FD7825C2B1383CB008C274C /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD7825B2B1383CB008C274C /* FirestoreManager.swift */; };
 		4FEB8C8A2B0FCE97007E3588 /* TextUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEB8C892B0FCE97007E3588 /* TextUpdateView.swift */; };
 		4FEB8C8C2B0FF5A4007E3588 /* VideoUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEB8C8B2B0FF5A4007E3588 /* VideoUpdateView.swift */; };
 /* End PBXBuildFile section */
@@ -50,7 +80,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4F3B725B2B0E287B00368C65 /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
 		4F3B725E2B0E303500368C65 /* UserChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChatView.swift; sourceTree = "<group>"; };
 		4F3B72602B0E390300368C65 /* time.utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = time.utils.swift; sourceTree = "<group>"; };
 		4F3B72632B0E3B0B00368C65 /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
@@ -74,6 +103,37 @@
 		4F7A9B642B0CB40A00900F41 /* testappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7A9B682B0CB40A00900F41 /* testappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testappUITests.swift; sourceTree = "<group>"; };
 		4F7A9B6A2B0CB40A00900F41 /* testappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4F8D5ADB2B14D831001C8056 /* mock_updates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mock_updates.swift; sourceTree = "<group>"; };
+		4F8D5ADD2B14D87B001C8056 /* updates_model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updates_model.swift; sourceTree = "<group>"; };
+		4F8D5ADF2B14DE26001C8056 /* UpdateListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateListView.swift; sourceTree = "<group>"; };
+		4F8D5AE12B14FC78001C8056 /* ViewTextStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTextStatusView.swift; sourceTree = "<group>"; };
+		4F8D5AE32B1502B4001C8056 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		4F8D5AE52B15153A001C8056 /* LinearViewUpdateProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearViewUpdateProgressView.swift; sourceTree = "<group>"; };
+		4F9CD09D2B225A4800C31455 /* PollingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollingManager.swift; sourceTree = "<group>"; };
+		4F9CD0A02B225BE500C31455 /* StatusUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusUpdate.swift; sourceTree = "<group>"; };
+		4FAAD28D2B31C98F00BE93E3 /* timeutils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeutils.swift; sourceTree = "<group>"; };
+		4FAAD28F2B31DC3100BE93E3 /* BrokenCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrokenCircle.swift; sourceTree = "<group>"; };
+		4FAAD2912B32158800BE93E3 /* MyStatusListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStatusListView.swift; sourceTree = "<group>"; };
+		4FB3122B2B14ADEF00E5F078 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		4FD782352B10B64B008C274C /* ViewfinderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewfinderView.swift; sourceTree = "<group>"; };
+		4FD782362B10B64B008C274C /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		4FD782372B10B64B008C274C /* PhotoAssetCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoAssetCollection.swift; sourceTree = "<group>"; };
+		4FD782382B10B64B008C274C /* PhotoCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionView.swift; sourceTree = "<group>"; };
+		4FD782392B10B64C008C274C /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		4FD7823A2B10B64C008C274C /* PhotoLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoLibrary.swift; sourceTree = "<group>"; };
+		4FD7823B2B10B64C008C274C /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		4FD7823C2B10B64C008C274C /* CachedImageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CachedImageManager.swift; sourceTree = "<group>"; };
+		4FD7823D2B10B64C008C274C /* PhotoAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoAsset.swift; sourceTree = "<group>"; };
+		4FD7823E2B10B64D008C274C /* CameraApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraApp.swift; sourceTree = "<group>"; };
+		4FD7823F2B10B64D008C274C /* PhotoCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollection.swift; sourceTree = "<group>"; };
+		4FD782402B10B64D008C274C /* PhotoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		4FD782412B10B64D008C274C /* ThumbnailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbnailView.swift; sourceTree = "<group>"; };
+		4FD782422B10B64D008C274C /* PhotoItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoItemView.swift; sourceTree = "<group>"; };
+		4FD782522B11F434008C274C /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		4FD782542B11F64C008C274C /* PhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
+		4FD782562B121E71008C274C /* CountriesCodesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesCodesView.swift; sourceTree = "<group>"; };
+		4FD782582B1375FE008C274C /* countries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		4FD7825B2B1383CB008C274C /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
 		4FEB8C892B0FCE97007E3588 /* TextUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextUpdateView.swift; sourceTree = "<group>"; };
 		4FEB8C8B2B0FF5A4007E3588 /* VideoUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoUpdateView.swift; sourceTree = "<group>"; };
 		4FEB8C8D2B0FF77A007E3588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -127,6 +187,8 @@
 			isa = PBXGroup;
 			children = (
 				4F51AD2E2B0CE7E60089EBD6 /* CircleAvatar.swift */,
+				4FB3122B2B14ADEF00E5F078 /* SearchBar.swift */,
+				4F8D5AE32B1502B4001C8056 /* VideoPlayerView.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -134,6 +196,7 @@
 		4F51AD342B0CEBAB0089EBD6 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				4FD782512B11F420008C274C /* startup */,
 				4FD782342B109831008C274C /* camera */,
 				4FEB8C882B0FCE83007E3588 /* updates */,
 				4F3B72622B0E3AF200368C65 /* images */,
@@ -143,7 +206,7 @@
 				4F51AD3B2B0CF9970089EBD6 /* ProfileView.swift */,
 				4F51AD3D2B0CF9D30089EBD6 /* FeedView.swift */,
 				4F51AD3F2B0CF9F10089EBD6 /* UpdatesView.swift */,
-				4F3B725B2B0E287B00368C65 /* Example.swift */,
+				4FAAD28F2B31DC3100BE93E3 /* BrokenCircle.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -179,6 +242,8 @@
 		4F7A9B4C2B0CB40700900F41 /* testapp */ = {
 			isa = PBXGroup;
 			children = (
+				4F9CD09C2B225A2D00C31455 /* utils */,
+				4FD7825A2B1383AC008C274C /* firestore */,
 				4FEB8C8D2B0FF77A007E3588 /* Info.plist */,
 				4F610DB52B0E5AAE007E91B6 /* Exampls */,
 				4F7A9B4F2B0CB40700900F41 /* ContentView.swift */,
@@ -217,11 +282,62 @@
 			path = testappUITests;
 			sourceTree = "<group>";
 		};
+		4F9CD09C2B225A2D00C31455 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				4F9CD09D2B225A4800C31455 /* PollingManager.swift */,
+				4FAAD28D2B31C98F00BE93E3 /* timeutils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		4F9CD09F2B225BCF00C31455 /* updates */ = {
+			isa = PBXGroup;
+			children = (
+				4F9CD0A02B225BE500C31455 /* StatusUpdate.swift */,
+			);
+			path = updates;
+			sourceTree = "<group>";
+		};
 		4FD782342B109831008C274C /* camera */ = {
 			isa = PBXGroup;
 			children = (
+				4FD7823C2B10B64C008C274C /* CachedImageManager.swift */,
+				4FD782362B10B64B008C274C /* Camera.swift */,
+				4FD7823E2B10B64D008C274C /* CameraApp.swift */,
+				4FD7823B2B10B64C008C274C /* CameraView.swift */,
+				4FD782392B10B64C008C274C /* DataModel.swift */,
+				4FD7823D2B10B64C008C274C /* PhotoAsset.swift */,
+				4FD782372B10B64B008C274C /* PhotoAssetCollection.swift */,
+				4FD7823F2B10B64D008C274C /* PhotoCollection.swift */,
+				4FD782382B10B64B008C274C /* PhotoCollectionView.swift */,
+				4FD782422B10B64D008C274C /* PhotoItemView.swift */,
+				4FD7823A2B10B64C008C274C /* PhotoLibrary.swift */,
+				4FD782402B10B64D008C274C /* PhotoView.swift */,
+				4FD782412B10B64D008C274C /* ThumbnailView.swift */,
+				4FD782352B10B64B008C274C /* ViewfinderView.swift */,
 			);
 			path = camera;
+			sourceTree = "<group>";
+		};
+		4FD782512B11F420008C274C /* startup */ = {
+			isa = PBXGroup;
+			children = (
+				4FD782522B11F434008C274C /* Welcome.swift */,
+				4FD782542B11F64C008C274C /* PhoneNumber.swift */,
+				4FD782562B121E71008C274C /* CountriesCodesView.swift */,
+				4FD782582B1375FE008C274C /* countries.json */,
+			);
+			path = startup;
+			sourceTree = "<group>";
+		};
+		4FD7825A2B1383AC008C274C /* firestore */ = {
+			isa = PBXGroup;
+			children = (
+				4F9CD09F2B225BCF00C31455 /* updates */,
+				4FD7825B2B1383CB008C274C /* FirestoreManager.swift */,
+			);
+			path = firestore;
 			sourceTree = "<group>";
 		};
 		4FEB8C882B0FCE83007E3588 /* updates */ = {
@@ -229,6 +345,12 @@
 			children = (
 				4FEB8C892B0FCE97007E3588 /* TextUpdateView.swift */,
 				4FEB8C8B2B0FF5A4007E3588 /* VideoUpdateView.swift */,
+				4F8D5ADB2B14D831001C8056 /* mock_updates.swift */,
+				4F8D5ADD2B14D87B001C8056 /* updates_model.swift */,
+				4F8D5ADF2B14DE26001C8056 /* UpdateListView.swift */,
+				4F8D5AE12B14FC78001C8056 /* ViewTextStatusView.swift */,
+				4F8D5AE52B15153A001C8056 /* LinearViewUpdateProgressView.swift */,
+				4FAAD2912B32158800BE93E3 /* MyStatusListView.swift */,
 			);
 			path = updates;
 			sourceTree = "<group>";
@@ -337,6 +459,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FD782592B1375FE008C274C /* countries.json in Resources */,
 				4F7A9B552B0CB40A00900F41 /* Preview Assets.xcassets in Resources */,
 				4F7A9B522B0CB40A00900F41 /* Assets.xcassets in Resources */,
 			);
@@ -364,23 +487,52 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F51AD3E2B0CF9D30089EBD6 /* FeedView.swift in Sources */,
+				4FD782532B11F434008C274C /* Welcome.swift in Sources */,
+				4FAAD2902B31DC3100BE93E3 /* BrokenCircle.swift in Sources */,
+				4F8D5AE62B15153A001C8056 /* LinearViewUpdateProgressView.swift in Sources */,
 				4F51AD2D2B0CE67B0089EBD6 /* ChatsView.swift in Sources */,
+				4FD782502B10B64D008C274C /* PhotoItemView.swift in Sources */,
 				4F7A9B502B0CB40700900F41 /* ContentView.swift in Sources */,
+				4FB3122C2B14ADEF00E5F078 /* SearchBar.swift in Sources */,
+				4F9CD0A12B225BE500C31455 /* StatusUpdate.swift in Sources */,
+				4FD7824E2B10B64D008C274C /* PhotoView.swift in Sources */,
 				4F3B725F2B0E303500368C65 /* UserChatView.swift in Sources */,
+				4FD7825C2B1383CB008C274C /* FirestoreManager.swift in Sources */,
+				4FD782552B11F64C008C274C /* PhoneNumber.swift in Sources */,
+				4FD7824C2B10B64D008C274C /* CameraApp.swift in Sources */,
+				4FD782482B10B64D008C274C /* PhotoLibrary.swift in Sources */,
+				4F8D5ADE2B14D87B001C8056 /* updates_model.swift in Sources */,
+				4FD782452B10B64D008C274C /* PhotoAssetCollection.swift in Sources */,
+				4F8D5AE02B14DE26001C8056 /* UpdateListView.swift in Sources */,
+				4FAAD2922B32158800BE93E3 /* MyStatusListView.swift in Sources */,
+				4FD782572B121E71008C274C /* CountriesCodesView.swift in Sources */,
 				4F51AD2F2B0CE7E60089EBD6 /* CircleAvatar.swift in Sources */,
+				4FD782432B10B64D008C274C /* ViewfinderView.swift in Sources */,
+				4F8D5AE22B14FC78001C8056 /* ViewTextStatusView.swift in Sources */,
 				4F51AD362B0CEC1A0089EBD6 /* ContactsListView.swift in Sources */,
+				4FD7824B2B10B64D008C274C /* PhotoAsset.swift in Sources */,
 				4F51AD402B0CF9F10089EBD6 /* UpdatesView.swift in Sources */,
+				4FD782462B10B64D008C274C /* PhotoCollectionView.swift in Sources */,
 				4FEB8C8C2B0FF5A4007E3588 /* VideoUpdateView.swift in Sources */,
 				4F51AD3C2B0CF9970089EBD6 /* ProfileView.swift in Sources */,
+				4FD7824D2B10B64D008C274C /* PhotoCollection.swift in Sources */,
+				4FD7824A2B10B64D008C274C /* CachedImageManager.swift in Sources */,
 				4F7A9B4E2B0CB40700900F41 /* testappApp.swift in Sources */,
 				4F3B72662B0E3D2300368C65 /* NetworkMonitor.swift in Sources */,
+				4FAAD28E2B31C98F00BE93E3 /* timeutils.swift in Sources */,
 				4F3B726A2B0E3E6900368C65 /* chat.types.swift in Sources */,
 				4F3B72682B0E3E3800368C65 /* chat.mocks.swift in Sources */,
 				4F3B72612B0E390300368C65 /* time.utils.swift in Sources */,
 				4FEB8C8A2B0FCE97007E3588 /* TextUpdateView.swift in Sources */,
+				4FD782442B10B64D008C274C /* Camera.swift in Sources */,
+				4F8D5ADC2B14D831001C8056 /* mock_updates.swift in Sources */,
+				4F8D5AE42B1502B4001C8056 /* VideoPlayerView.swift in Sources */,
+				4F9CD09E2B225A4800C31455 /* PollingManager.swift in Sources */,
 				4F3B72642B0E3B0B00368C65 /* RemoteImageView.swift in Sources */,
 				4F610DB72B0E5AC4007E91B6 /* Swipe.swift in Sources */,
-				4F3B725C2B0E287B00368C65 /* Example.swift in Sources */,
+				4FD7824F2B10B64D008C274C /* ThumbnailView.swift in Sources */,
+				4FD782492B10B64D008C274C /* CameraView.swift in Sources */,
+				4FD782472B10B64D008C274C /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,6 +701,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testapp/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to capture photos for a personalized experience.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "We need access to your contacts to provide a better user experience.";
+				INFOPLIST_KEY_NSNetworkVolumesUsageDescription = Network;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -580,6 +734,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testapp/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera to capture photos for a personalized experience.";
+				INFOPLIST_KEY_NSContactsUsageDescription = "We need access to your contacts to provide a better user experience.";
+				INFOPLIST_KEY_NSNetworkVolumesUsageDescription = Network;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

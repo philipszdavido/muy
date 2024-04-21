@@ -2,6 +2,7 @@ import SwiftUI
 
 struct UserChatView: View {
     var user: ChatItem
+    @State private var isTabBarHidden = false
     
     var body: some View {
         ZStack(alignment: .bottom) {
@@ -23,8 +24,14 @@ struct UserChatView: View {
                 )
             
             BottomSendMessageView()
-                        
-        }
+            
+        }.toolbar(self.isTabBarHidden ? .hidden : .visible, for: .tabBar)
+            .onAppear {
+                self.isTabBarHidden = true
+            }
+            .onDisappear {
+                self.isTabBarHidden = false
+            }
     }
 
 }
